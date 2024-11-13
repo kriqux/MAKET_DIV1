@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #b3d1ff;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0044cc;
+}
+
+.container {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f7f2b3;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 5px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  flex: 1;
+  background-image: url('ball.png');
+  background-position: right center;
+  background-repeat: repeat-y;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.content h2 {
+  text-align: center;
+  font-size: 22px;
+  color: #333;
+}
+
+.content-image {
+  text-align: center;
+  margin: 15px;
+}
+
+.content-image img {
+  float: left;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 15px;
+}
+
+footer {
+  background-color: #b3d1ff;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: #0044cc;
+  margin-top: 0;
+}
